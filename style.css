@@ -1,0 +1,32 @@
+
+.container {
+    background-color: red;
+    overflow: auto;
+}
+
+.outer {
+    background-color: green;
+    margin: 15px;
+    padding: 15px;
+}
+
+.inner {
+    background-color: blue;
+    height: 200px;
+}
+
+/* Центрирование */
+
+/*
+.outer {
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    background-color: firebrick;
+    border: 5px solid black;  /* толщина, тип, цвет
+    height: 100px;
+    width: 100%; /* определяется относительно родительского блока */
+}
+*/

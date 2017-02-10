@@ -1,0 +1,42 @@
+.html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.inner {
+    background-color: red;
+    margin: 15px;
+    border-radius: 5px;
+    
+    width: 300px;
+    
+    font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+.outer {
+    /* без нее занимает каждый отдельную строку 
+    display: flex;
+    Располагаются всегда на одной строке, вне зависимости от размеров 
+    */
+}
+ /* flex-wrap */ 
+/*.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* align-container */
+/*.outer {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+*/
+
+
+
+

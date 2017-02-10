@@ -1,0 +1,40 @@
+.html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    background: linear-gradient(135deg, orange, red);
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+}
+
+
+/*  поворот на 45 градусов по часовой стрелке */
+/*
+.block {
+    transform: rotate(45deg);
+} */
+
+
+/* Масштабирование /* 
+/*
+.block {
+    transform: scaleX(1.5) scaleY(0.5);
+}
+*/
+ 
+
+/* Перекос на 30 градусов по горизонтали и 0 по вертикали */
+/*
+.block {
+    transform: skew(30deg, 0deg);
+}
+*/

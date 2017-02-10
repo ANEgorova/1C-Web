@@ -1,0 +1,18 @@
+.menu {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item {
+    display: block;
+    float: left; /* свойство, благодаря которому все становится слева направо */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.menu_item:hover {
+    background-color: green;
+}
