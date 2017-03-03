@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    margin: 200px;
+}
+
+input[type="text"] {
+    background-color: darkgrey;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 3px;
+    width: 200px;
+    height: 50px;
+}
+
+#convert {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 38px;
+    margin: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 54px;
+}
+
+.result {
+    
+}
+
+
+input[id="field"] {
+    width: 246px;
+    background-color: white;
+}
