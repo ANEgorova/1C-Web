@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример</title>
+    </head>
+    
+    <body>
+        <div class="ancestor">
+            <div id="outer">
+                <div>
+                    <div></div>
+                    <div id="inner"></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $("#inner").parent().css({border: "1px solid red"})
+        </script>
+    </body> 
+</html>

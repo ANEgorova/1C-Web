@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример</title>
+    </head>
+    
+    <body>
+        <div id="first">Первый блок</div>
+        <div id="second">Второй блок</div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            alert($("div").attr("id"));
+            $("div").attr("data", "42");
+            alert($("div").html());
+            $("div").html("<h1>Блок</h1>");
+        </script>
+    </body> 
+</html>
