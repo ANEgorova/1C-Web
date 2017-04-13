@@ -1,0 +1,30 @@
+/* p, h1 {
+    color: blue;
+    font-size: 36px; 
+    background-color: bisque;
+}
+
+.red_bold {
+    color: red;
+    font-weight: bold;
+}
+
+#planetaMars {
+    text-decoration: underline;
+    color: darkolivegreen;
+} */
+
+.outer {
+    background-color: aqua;
+    margin: 15px; /* Расстояние между элементами*/
+    padding: 15px; /* Расстояние до рамки */
+    border: 5px solid black; /* Рамка */
+}
+
+.inner {
+    background-color: darkorange;
+}
+
+.red {
+    color: red;
+}
