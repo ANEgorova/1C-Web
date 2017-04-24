@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Список дел</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            li {
+                 cursor: pointer;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="col-lg-4">
+        <h1>Список дел</h1>
+        <ul class="list list-group">
+             <li class="list-group-item"><input type="text" id="text" placeholder="Что нужно сделать?"></li>
+             <li class="list-group-item added">Выпить чашку кофе</li>
+             <li class="list-group-item added">Прочитать новости</li>
+             <li class="list-group-item added">Погулять с собакой</li>
+        </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
